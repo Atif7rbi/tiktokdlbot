@@ -3,14 +3,14 @@
 🏖  A Telegram BOT To TikTok Download TikTok Vieos - Example For [TikTok API](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md) 🏖
 
 
-![🏖 TikTok Download URL Generator 🏖](https://telegra.ph/file/05ce45e35c9c93c8d001f.jpg)
+![🏖 TikTok Download URL Generator 🏖](https://telegra.ph//file/2ab178154716f994eecbf.jpg)
 
 ## 🚀 Deploy on Heroku 
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/Single-Developers/TikTok-DL-BOT"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/presetrend/tiktokdlbot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
 
-🚧 Telegram : [🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)<br>
-🙆‍♂️ Demo: [🎧 MUSIC ҒIΠDΣR BOT 🎵](https://t.me/The_Shazam_BOT)
+🚧 Telegram : [🔥 Fahri </> 🇱🇰](https://t.me/arfahri)<br>
+🙆‍♂️ Demo: [🎧 Tiktok Downloader Bot 🎧](https://t.me/presetrend_tiktok_bot)
 <br>
 <br>
 
@@ -20,9 +20,9 @@
 
 ## 📚 Description 
 
-🔗 Send any TikTok link to this BOT, then,</br></br>
-🚀 This bot will Download and Send that TikTok Video for You. </br></br>
-🔑 BOT Commands : `/start` , `/about`
+🔗 Kirim tautan TikTok apa pun ke BOT ini, lalu,</br></br>
+🚀 Bot ini akan Mengunduh dan Mengirim Video TikTok itu untuk Anda. </br></br>
+🔑 Perintah BOT : '/start', '/about'
 
 <br>
 
@@ -40,7 +40,7 @@
 
 ## ☘️ Telegram
 
-[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)<br>
-[🔥 Single Developers </> ](https://t.me/SingleDevelopers) Corporation ©️
+[🔥 PERSONAL ACCOUNT </> 🇱🇰](https://t.me/arfahri)<br>
+[🔥 BUSSINESS ACCOUNT </> ](https://t.me/antoniusfahri) Corporation ©️
 
 ##
