@@ -94,7 +94,6 @@ def incoming_message_action(update, context):
 # ◇─────────────────────────────────────────────────────────────────────────────────────◇
 
 def main() -> None:
-    """Run the bot."""
   
     updater = Updater(BOT_TOKEN)
 
