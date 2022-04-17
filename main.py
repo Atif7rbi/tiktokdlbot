@@ -62,23 +62,23 @@ def Download_Video(Link,update, context):
         status_sticker.delete()
         return
     
-    caption_text="""◇───────────────◇
+    "caption_text=◇───────────────◇",
 
-✨ Berhasil Mengunduh {} Di Video ✨
+"✨ Berhasil Mengunduh {} Di Video ✨",
 
-🪐 Didukung oleh : [Telegram Channel](https://t.me/presetrend)
+"🪐 Didukung oleh : [Telegram Channel](https://t.me/presetrend)",
 
-[Youtube Channel](https://youtube.com/c/Presetrend) Corporation ©️
+"[Youtube Channel](https://youtube.com/c/Presetrend) Corporation ©️",
 
 "Diunduh Oleh @{BOT_URL}",
 
-║▌│█║▌│ █║▌│█│║▌║
+"║▌│█║▌│ █║▌│█│║▌║",
     
     # Uploading Downloaded Videos to Telegram
     print('Uploading Videos')
-    status_msg.edit_text('🔥 Mengirim Ke Telegram....')
-    message.reply_video(video=no_watermark,supports_streaming=True,caption=caption_text.format('Tanpa Watermark'),parse_mode=_ParseMode)
-    message.reply_video(video=watermark,supports_streaming=True,caption=caption_text.format('Watermark'),parse_mode=_ParseMode)
+    "status_msg.edit_text('🔥 Mengirim Ke Telegram....')",
+    "message.reply_video(video=no_watermark,supports_streaming=True,caption=caption_text.format('Tanpa Watermark'),parse_mode=_ParseMode)",
+    "message.reply_video(video=watermark,supports_streaming=True,caption=caption_text.format('Watermark'),parse_mode=_ParseMode)",
 
     # Task Done ! So, Deleteing Status Messages
     status_msg.delete()
