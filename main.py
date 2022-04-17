@@ -76,7 +76,7 @@ def Download_Video(Link,update, context):
     
     # Uploading Downloaded Videos to Telegram
     print('Uploading Videos')
-    status_msg.edit_text('🔥 Mengirim Ke Telegram....')",
+    status_msg.edit_text('🔥 Mengirim Ke Telegram....')
     message.reply_video(video=no_watermark,supports_streaming=True,caption=caption_text.format('Tanpa Watermark'),parse_mode=_ParseMode)",
     message.reply_video(video=watermark,supports_streaming=True,caption=caption_text.format('Watermark'),parse_mode=_ParseMode)",
 
