@@ -1,3 +1,7 @@
+import requests
+import os
+import logging
+
 from telegram import ParseMode
 from telegram.ext import (
     Updater,
@@ -5,9 +9,6 @@ from telegram.ext import (
     MessageHandler,
     Filters
 )
-import requests
-import os
-import logging
 
 # ◇─────────────────────────────────────────────────────────────────────────────────────◇
 
@@ -62,23 +63,26 @@ def Download_Video(Link,update, context):
         status_sticker.delete()
         return
     
-    "caption_text=◇───────────────◇",
+    caption_text="""◇───────────────◇
 
-"✨ Berhasil Mengunduh {} Di Video ✨",
+✨ Berhasil Mengunduh {} Di Video ✨
 
-"🪐 Didukung oleh : [Telegram Channel](https://t.me/presetrend)",
+🪐 Didukung oleh : [Telegram Channel](https://t.me/presetrend)
 
 "[Youtube Channel](https://youtube.com/c/Presetrend) Corporation ©️",
 
 "Diunduh Oleh @{BOT_URL}",
 
 "║▌│█║▌│ █║▌│█│║▌║",
+
+◇───────────────◇"""
+
     
     # Uploading Downloaded Videos to Telegram
     print('Uploading Videos')
     status_msg.edit_text('🔥 Mengirim Ke Telegram....')
-    message.reply_video(video=no_watermark,supports_streaming=True,caption=caption_text.format('Tanpa Watermark'),parse_mode=_ParseMode)",
-    message.reply_video(video=watermark,supports_streaming=True,caption=caption_text.format('Watermark'),parse_mode=_ParseMode)",
+    message.reply_video(video=no_watermark,supports_streaming=True,caption=caption_text.format('Tanpa Watermark'),parse_mode=_ParseMode)
+    message.reply_video(video=watermark,supports_streaming=True,caption=caption_text.format('Watermark'),parse_mode=_ParseMode)
 
     # Task Done ! So, Deleteing Status Messages
     status_msg.delete()
@@ -94,7 +98,8 @@ def incoming_message_action(update, context):
 # ◇─────────────────────────────────────────────────────────────────────────────────────◇
 
 def main() -> None:
-  
+    """Run the bot."""
+
     updater = Updater(BOT_TOKEN)
 
     dispatcher = updater.dispatcher
@@ -105,7 +110,7 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler('about', about_handler, run_async=True))
 
     # Message Incoming Action
-    dispatcher.add_handler( MessageHandler(Filters.text, incoming_message_action,run_async=True))
+    dispatcher.add_handler( MessageHandler(Filters.text, incoming_message_action, run_async=True))
     updater.start_polling()
     updater.idle()
 
