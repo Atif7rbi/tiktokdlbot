@@ -14,7 +14,7 @@ from telegram.ext import (
 
 
 # TikTok Downloader API
-API = 'https://single-developers.up.railway.app/tiktok?url='
+API = 'https://tiktok-video-downloader1.p.rapidapi.com/api/video'
 
 # Your BOT Token
 BOT_TOKEN = os.getenv("BOT_TOKEN")
