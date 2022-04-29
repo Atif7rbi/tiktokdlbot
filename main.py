@@ -48,7 +48,7 @@ def Download_Video(Link,update, context):
     no_watermark=None
     watermark=None
 
-    status_msg=message.reply_text('🚀 Mengunduh File Ke Server ....🚀')
+    status_msg=message.reply_text('🚀 Mengunduh File Ke Server .... 🚀')
     status_sticker=message.reply_sticker('CAACAgUAAx0CaWXowQADCWJbezMeCqUBuymLhmLi8cylLGF4AAIuBQAC48HIV_rDMLj73H46JAQ')
 
     # Getting Download Links Using API
